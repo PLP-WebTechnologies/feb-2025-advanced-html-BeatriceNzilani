@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list,images and forms in html</title>
+</head>
+<body>
+    <h2>Ordered list</h2>
+    <ol type="i">
+        <li>Nairobi</li>
+        <li>Mombasa</li>
+        <li>Kisumu</li>
+        <li>Eldoret</li>
+        <li>Naivasha</li>
+    </ol>
+    
+    <h2>image</h2>
+<img src="https://images.pexels.com/photos/15568759/pexels-photo-15568759/free-photo-of-bird-among-spring-blossoms-on-tree.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bird" style="height: 500px;margin-left: 50px;width:1000px ;">
+
+<h2>Table</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Kamau</td>
+            <td>Nairobi, Kenya</td>
+            <td>+254 712 345678</td>
+            <td>johnkamau@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mary Njeri</td>
+            <td>Mombasa, Kenya</td>
+            <td>+254 722 456789</td>
+            <td>marynjeri@gmail.com</td>
+        </tr>
+        <tr>
+            <td>James Otieno</td>
+            <td>Kisumu, Kenya</td>
+            <td>+254 733 567890</td>
+            <td>jamesotieno@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Grace Wanjiru</td>
+            <td>Nakuru, Kenya</td>
+            <td>+254 740 678901</td>
+            <td>gracewanjiru@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Daniel Mwangi</td>
+            <td>Eldoret, Kenya</td>
+            <td>+254 701 789012</td>
+            <td>danielmwangi@gmail.com</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td colspan="4"><strong>Top Performers</strong></td>
+
+
+    </tfoot>
+</table>
+<br>
+<br>
+
+    <h2>Registartion form</h2>
+    <form action="#">
+    <label for="fname">Name:</label><br>
+    <input type="text" name="fname" id="fname" placeholder="Enter your name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+
+    <label for="pswd">Password:</label><br>
+    <input type="password" name="pswd" id="pswd" placeholder="Enter your password"><br><br>
+
+    <label for="dob">Date Of Birth:</label><br>
+    <input type="date" name="dob" id="dob"><br><br>
+
+    <label for="location">Location:</label><br>
+    <select name="location" id="location" required>
+        <option value="Nairobi" >Nairobi</option>
+        <option value="mombasa ">Mombasa</option>
+        <option value="kisumu ">Kisumu</option>
+        <option value="eldoret">eldoret</option>
+        <option value="naivasa">Naivasha</option>
+    </select><br><br>
+
+    
+        <label for="gender">Gender:</label><br>
+        
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+    
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+    
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        
+        <label for="skills">Programming Skills:</label><br>
+
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="php" name="skills" value="PHP">
+        <label for="php">PHP</label><br>
+
+    </form>
+    
+</body>
+</html>
